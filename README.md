@@ -20,3 +20,11 @@ No experience parallels looking for courts and when they're free, only to click 
 
 # Command line tool: how to use
 // TODO
+
+The steps are straightforward and very human.
+
+```
+git clone https://github.com/teoh/bintang-buddy.git
+cd bintang-buddy
+// TODO
+```
