@@ -11,7 +11,7 @@ Ever wanted to play badminton at a certain time? Have you tried looking at court
 
 ![this is what you first see when you try to make a bintang booking](https://user-images.githubusercontent.com/10181537/147029092-45062d7c-7b88-4a91-bcc6-edbbfefab487.png)
 
-If you have, I'm sure that you've looked for courts and when they're free, and have clicked through this nightmare: 😱🙀
+No experience parallels looking for courts and when they're free, only to click through this nightmare: 😱🙀
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/10181537/147029277-8453ad3c-2c1c-454a-9c45-08b22e2dda39.png" alt="when you click through on one gym you see many courts" width="40%" /> 
@@ -20,3 +20,11 @@ If you have, I'm sure that you've looked for courts and when they're free, and h
 
 # Command line tool: how to use
 // TODO
+
+The steps are straightforward and very human.
+
+```
+git clone https://github.com/teoh/bintang-buddy.git
+cd bintang-buddy
+// TODO
+```
