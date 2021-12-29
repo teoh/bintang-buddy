@@ -18,13 +18,21 @@ No experience parallels looking for courts and when they're free, only to click 
   <img src="https://user-images.githubusercontent.com/10181537/147029436-63d6cc9a-9a74-458a-a8cf-5ed333299a14.png" alt="when you click through on one court you finally see the times" width="40%" />
 </p>
 
-# Command line tool: how to use
-// TODO
+# Command line tool
 
-The steps are straightforward and very human.
-
+## Installation
+Steps below for Python 3, but it should work for Python 2 as well
 ```
 git clone https://github.com/teoh/bintang-buddy.git
 cd bintang-buddy
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r python/requirements.txt
+```
+
+## Usage
+The steps are straightforward and very human.
+
+```
 // TODO
 ```
