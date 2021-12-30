@@ -41,6 +41,12 @@ pip3 install -r python/requirements.txt
 ## Usage
 The steps are straightforward and very human.
 
+Try running the commands below:
 ```
-// TODO
+cd bintang-buddy
+python3 python/bintang_schedules.py  -d "20220113" -g "san carlos" -g "sunnyvale"
 ```
+
+This script has two arguments:
+1. `-d`: Date string, in the form of `YYYYMMDD`
+2. `-g`: The names of the gyms you'd like to load court schedules for. If you leave this empty you'll get every court for every gym, and you'll be waiting for a while. Your choices: `campbell, dublin, milpitas, san carlos, sunnyvale`
