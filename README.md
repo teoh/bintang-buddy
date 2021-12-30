@@ -18,6 +18,9 @@ No experience parallels looking for courts and when they're free, only to click 
   <img src="https://user-images.githubusercontent.com/10181537/147029436-63d6cc9a-9a74-458a-a8cf-5ed333299a14.png" alt="when you click through on one court you finally see the times" width="40%" />
 </p>
 
+That's OK, with a few easy steps, you can be viewing court schedules with buttery smoothness:
+![image](https://user-images.githubusercontent.com/10181537/147728223-ac92d19c-455a-4cce-b666-924f0cdede11.png)
+
 # Command line tool
 
 ## Installation
