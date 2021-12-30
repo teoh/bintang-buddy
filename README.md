@@ -23,6 +23,11 @@ That's OK, with a few easy steps, you can be viewing court schedules with butter
 
 # Command line tool
 
+## Getting the Bearer Token
+I hate this step, I wish I didn't have to include it, but pasting tokens on a public repo didn't seem like a good idea. 
+Steps below:
+1. TODO
+
 ## Installation
 Steps below for Python 3, but it should work for Python 2 as well
 ```
