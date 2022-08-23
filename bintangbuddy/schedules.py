@@ -123,6 +123,7 @@ def get_court_schedule(court_id, dt, headers):
     }
 
     resp = requests.post(COURT_SCHEDULE_URL, headers=headers, json=sched_data)
+    resp.raise_for_status()
     schedule = resp.json().get("resources", list())[0].get("days")[0].get("levels")
     times = list(map(get_availability, schedule))
     return times
