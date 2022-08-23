@@ -43,8 +43,12 @@ This script has two arguments:
 
 # Credits
 This is a fork of [teoh/bintang-buddy](https://github.com/teoh/bintang-buddy) which provided a lot of the base functionality (kudos!). However,
-- [teoh/bintang-buddy](https://github.com/teoh/bintang-buddy) required users to clone the repository, create a virtual environment, activate it, install the project inside the virtual environment and run a Python script. 
+- [teoh/bintang-buddy](https://github.com/teoh/bintang-buddy) required users to clone the repository, create a virtual environment, activate it, install the project inside the virtual environment, obtain a Bearer token, set an environment variable with the Bearer token and run a Python script.
 - This process was quite involved even for a moderately technical person. 
-- This fork however, creates an easy-to-use CLI based on [click](https://click.palletsprojects.com/en/latest/) which is published to `pypi`. The CLI can be installed through a single command and is ready to go.
-- This fork also uses multithreading to reduce load times.
+
+This fork, however:
+- Creates an easy-to-use CLI based on [click](https://click.palletsprojects.com/en/latest/) which is published to `pypi`. The CLI can be installed through a single command and is ready to go.
+- Removes the need to manually (and painstakingly) obtain a `Bearer` token for authentication (as described [here](https://github.com/teoh/bintang-buddy#getting-the-bearer-token)). This is now done automatically behind the scenes.
+- Uses multithreading to significantly reduce load times.
+- Uses linting and formatting tools to keep code clean and organized.
 - The goal is to eventually merge changes from this repository back into [teoh/bintang-buddy](https://github.com/teoh/bintang-buddy).
