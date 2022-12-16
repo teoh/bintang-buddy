@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bintang-buddy"
+description = "Bintang Badminton Court Availability Finder"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["bintang", "badminton"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "click",
+    "pandas",
+    "requests",
+    "tqdm",
+    "prettytable"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["black", "isort", "flake8"]
+
+[project.scripts]
+bintang-buddy = "bintangbuddy.schedules:cli"
+
+[tool.setuptools_scm]
+
+[tool.black]
+line-length = 160
+
+[tool.isort]
+line_length = 160
